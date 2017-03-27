@@ -6,6 +6,17 @@
     <array>
       <string>Sofia-Regular.ttf</string>
       <string>Zap-Raygun-V20-Regular.ttf</string>
+      <string>Entypo.ttf</string>
+      <string>EvilIcons.ttf</string>
+      <string>FontAwesome.ttf</string>
+      <string>Foundation.ttf</string>
+      <string>Ionicons.ttf</string>
+      <string>MaterialCommunityIcons.ttf</string>
+      <string>MaterialIcons.ttf</string>
+      <string>Octicons.ttf</string>
+      <string>SimpleLineIcons.ttf</string>
+      <string>Zocial.ttf</string>
+      <string>fontello.ttf</string>
     </array>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>

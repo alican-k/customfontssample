@@ -1,6 +1,11 @@
 import React, {Component} from 'react'
 import {Text, StyleSheet, View} from 'react-native'
 
+import { createIconSetFromFontello } from 'react-native-vector-icons';
+import fontelloConfig from './assets/config.json';
+const Icon = createIconSetFromFontello(fontelloConfig);
+
+
 export default class App extends Component{
 	render(){
 		return(
@@ -12,6 +17,9 @@ export default class App extends Component{
 				<Text style={styles.text2}>
 					(Always uppercase)
 				</Text>
+
+				<Icon name='emo-coffee' size={50}  style={styles.icon} />
+				<Text>Coffee ;)</Text>
 			</View>
 		)
 	}
@@ -35,5 +43,10 @@ const styles = StyleSheet.create({
 	text2: {
 		fontFamily: 'Zap-Raygun-V20-Regular',
 		textAlign: 'center',
+	},
+	icon: {
+		marginTop: 60,
+		marginBottom: 20,
+		color: 'darkviolet'
 	}
 })
