@@ -11,13 +11,7 @@ export default class App extends Component{
 		return(
 			<View style = {styles.container}>
 				<Text style={styles.text1}>This text looks graceful.</Text>
-				<Text style={styles.text2}>
-					And this is some funny text writen with Zap Raygun font family.
-				</Text>
-				<Text style={styles.text2}>
-					(Always uppercase)
-				</Text>
-
+				
 				<Icon name='emo-coffee' size={50}  style={styles.icon} />
 				<Text>Coffee ;)</Text>
 			</View>
@@ -38,10 +32,6 @@ const styles = StyleSheet.create({
 		fontFamily: 'Sofia-Regular',
 		fontSize: 24,
 		marginBottom: 30,
-		textAlign: 'center',
-	},
-	text2: {
-		fontFamily: 'Zap-Raygun-V20-Regular',
 		textAlign: 'center',
 	},
 	icon: {
